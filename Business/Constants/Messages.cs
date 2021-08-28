@@ -55,5 +55,16 @@ namespace Business.Constants
         public const string RentalDeleted = "Kiralama silindi";
         public const string GetRental = "Kiralama getirildi";
         public const string RentalsListed = "Kiralamalar listelendi";
+
+        //**********************************  CAR IMAGE   *********************************//
+        public const string CarImageLimitExceded = "Araba resim sınırı aşıldı";
+        public const string CarImageNotFound = "Araba resmi bulunamadı";
+
+        //**********************************  GENRAL   *********************************//
+        public const string AddedSuccess = "Başarıyla eklendi";
+        public const string UpdatedSuccess = "Başarıyla güncellendi";
+        public const string DeletedSuccess = "Başarıyla silindi";
+        public const string GetItem = "Nesne getirildi";
+        public const string ItemsListed = "Nesneler listelendi";
     }
 }
