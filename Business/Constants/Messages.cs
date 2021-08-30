@@ -66,5 +66,12 @@ namespace Business.Constants
         public const string DeletedSuccess = "Başarıyla silindi";
         public const string GetItem = "Nesne getirildi";
         public const string ItemsListed = "Nesneler listelendi";
+        public const string UserNotFound = "Böyle bir kullanıcı yok.";
+        public const string PasswordError = "Hatalı şifre.";
+        public const string SuccessfulLogin = "Giriş başarılı.";
+        public const string UserAlreadyExists = "Kullanıcı zaten mevcut.";
+        public const string AccessTokenCreated = "Access token oluşturuldu.";
+        public const string UserRegistered = "Kullanıcı başarıyla kaydedildi.";
+        public const string AuthorizationDenied = "Yetkiniz yok.";
     }
 }

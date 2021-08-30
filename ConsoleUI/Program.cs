@@ -1,7 +1,8 @@
 ﻿using Business.Abstract;
 using Business.Concrete;
-using DataAccess.Conctrete.EntityFramework;
-using DataAccess.Conctrete.InMemory;
+using Core.Entities.Concrete;
+using DataAccess.Concrete.EntityFramework;
+using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using System;
 
@@ -44,14 +45,14 @@ namespace ConsoleUI
 
         private static void UserTest()
         {
-            UserManager userManager = new UserManager(new EfUserDal());
-            userManager.Add(new User { Email = "user@user.com", FirstName = "User", LastName = "User", Password = "123" });
-            userManager.Add(new User { Email = "engin@user.com", FirstName = "Engin", LastName = "Bilgin", Password = "123" });
+            //UserManager userManager = new UserManager(new EfUserDal());
+            //userManager.Add(new User { Email = "user@user.com", FirstName = "User", LastName = "User", Password = "123" });
+            //userManager.Add(new User { Email = "engin@user.com", FirstName = "Engin", LastName = "Bilgin", Password = "123" });
 
-            foreach (var user in userManager.GetAll().Data)
-            {
-                Console.WriteLine(user.FirstName);
-            }
+            //foreach (var user in userManager.GetAll().Data)
+            //{
+            //    Console.WriteLine(user.FirstName);
+            //}
         }
 
         private static void ColorTest()
